@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+pymongo = "*"
+python-dotenv = "*"
+dnspython = "*"
+python-socketio = "*"
+fastapi-socketio = "==0.0.4"
+aiofiles = "*"
+websockets = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
